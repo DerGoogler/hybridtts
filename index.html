@@ -24,137 +24,85 @@
     <meta property="twitter:title" content="Official Hybrid TTS App ">
     <meta property="twitter:description" content="Download the offial Hybrid TTS App and have fun with it!">
     <meta property="twitter:image" content="https://lh3.googleusercontent.com/aARU7AhN58JzBGjlf4qJhsNOC-4YF8HtCOu9NhC9u3JiK91tW0ViBMcL6Vo_0DYtUp97">
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .bota64_header_logo {
+            width: 130px;
+            height: 130px;
+            border: none;
+            margin: 8px;
+            border-radius: 25px;
+            box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .app-container {
+            border-radius: 32px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .app-container .r {
+            margin-top: 24px;
+            width: 52px;
+            height: 52px;
+            border-radius: 4px;
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+            background: white;
+            opacity: 1;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.7);
+        }
+        
+        .app-container .r:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-style: solid;
+            border-top-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-width: 72px 0 0px 52px;
+            border-color: transparent transparent transparent #FFF;
+        }
+        
+        .download-continer {
+            margin-top: 56px;
+            display: flex;
+        }
+    </style>
 </head>
 
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header text-light">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="/">
-                                <img class="header-logo-image" style="width:32px;height:32px;border-radius:100%;" src="https://dergoogler.github.io/src/images/google_512px.jpg" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
+<body translate="no">
+    <div class="container">
+        <div class="app-container">
+            <img class="bota64_header_logo" width="220" height="220" src="https://dergoogler.github.io/src/images/tts_512px.png">
+        </div>
 
-        <main>
-            <section class="hero text-center text-light">
-                <div class="hero-bg"></div>
-                <div class="hero-particles-container">
-                    <canvas id="hero-particles"></canvas>
-                </div>
-                <div class="container-sm">
-                    <div class="hero-inner">
-                        <div class="hero-copy">
-                            <h1 class="hero-title mt-0">Hybrid TTS for Android</h1>
-                            <p class="hero-paragraph">Get the best TTS App without Ads, Crashes and Low performance!</p>
-                            <div class="hero-cta">
-                                <a class="button button-primary button-wide-mobile" href="https://play.google.com/store/apps/details?id=com.dergoogler.hybridtts">Download</a>
-                            </div>
-                        </div>
-                        <div class="mockup-container">
-                            <div class="mockup-bg">
-                                <img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
-                            </div>
-                            <img class="device-mockup" src="dist/images/1609886599459.png" alt="iPhone Hero">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="features-extended section">
-                <div class="features-extended-inner section-inner">
-                    <div class="features-extended-wrap">
-                        <div class="container">
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/1609886606279.png" alt="iPhone Feature 01">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Config your Pitch an Speech</h3>
-                                    <p class="m-0">The funnist feature in the! Turn Speech on six, is the fastest in the app!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/1609886612330.png" alt="iPhone Feature 02">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Simple TTS Save</h3>
-                                    <p class="m-0">You to share your tts? Save it! With TTS Save can you save you text to audio! ;)</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer">
-            <div class="footer-particles-container">
-                <canvas id="footer-particles"></canvas>
+        <div class="download-continer">
+            <div class="download-android">
+                <a href="https://play.google.com/store/apps/details?id=com.dergoogler.hybridtts" class="btn--download-android" target="_blank">
+                    <img alt="Get it on Google Play" src="download-app-google.png">
+                </a>
             </div>
-            <div class="site-footer-top">
-                <section class="cta section text-light">
-                    <div class="container-sm">
-                        <div class="cta-inner section-inner">
-                            <div class="cta-header text-center">
-                                <h2 class="section-title mt-0">Issues?</h2>
-                                <p class="section-paragraph">Tell us your app issue! You need your devices infos? Double tap on "Hybrid TTS" in the app.</p>
-                                <div class="cta-cta">
-                                    <a class="button button-primary button-wide-mobile" href="https://github.com/DerGoogler/hybridtts/issues">Write Issue</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="site-footer-bottom">
-                <div class="container">
-                    <div class="site-footer-inner">
-                        <div class="brand footer-brand">
-                            <a href="#">
-                                <img style="width:32px;height:32px;border-radius:100%;" src="https://dergoogler.github.io/src/images/google_512px.jpg" alt="Googler logo">
-                            </a>
-                        </div>
-                        <ul class="footer-links list-reset">
-                            <li>
-                                <a href="https://dergoogler.github.io/?/safty/#/hybridtts-privacy-policy/">Privacy
-									Policy</a>
-                            </li>
-                            <li>
-                                <a href="https://dergoogler.github.io/?/safty/#/impressum/">Impressum</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/DerGoogler/hybridtts/issues">Issues</a>
-                            </li>
-                        </ul>
-                        <ul class="footer-social-links list-reset">
-                        </ul>
-                        <div class="footer-copyright">&copy; 2021 Der_Googler, all rights reserved</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+
+            <!--<div class="download-ios">
+                <a href="#" class="btn--download-android" target="_blank">
+                    <img alt="Get it on Google Play" src="http://nolaprodigital.com/saints/images/Saints Mobile App/download-app-apple.png">
+                </a>
+            </div>-->
+        </div>
     </div>
-
-    <script src="dist/js/main.min.js"></script>
 </body>
 
 </html>
