@@ -1,8 +1,3 @@
----
-created: 2021-01-18T09:47:00+01:00
-modified: 2021-01-18T09:47:52+01:00
----
-
 # Custom HTML Translate
 
 # Custom translate
@@ -36,7 +31,7 @@ so use you this
 <!-- ... Some content ... -->
 ```
 
-## How to get the translation 
+## How to get the translation
 
 Code (get url param)
 ```javascript
