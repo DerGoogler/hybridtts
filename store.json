@@ -12,7 +12,7 @@
             "package": "not provided"
         },
         "description": {
-            "disabled": true,
+            "disabled": false,
             "text": "[LINK](https://google.com)"
         }
     },
