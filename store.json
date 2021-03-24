@@ -1,29 +1,89 @@
-[{
-    "name": "Hybrid TTS",
-    "dev": "Der_Googler",
-    "icon": "https://play-lh.googleusercontent.com/hVb5mbZDDRum0rUtNYSMp_12ANIyK3D1TRJqN3QgcBbzrCF7-LVlOsWDwDgOGytZgpQ=s200-rw",
-    "description": "# Hello world!",
-    "download": {
+[
+    {
+      "name": "Official Store",
+      "dev": "Der_Googler",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/dergoooogler.appspot.com/o/store_icon.png?alt\u003dmedia\u0026token\u003d9c49244c-2a36-4685-997b-622aac7d2b8b",
+      "download": {
         "disabled": false,
-        "link": "https://play.google.com/store/apps/details?id=com.dergoogler.hybridtts"
-    },
-    "more": {
+        "link": "https://firebasestorage.googleapis.com/v0/b/dergoooogler.appspot.com/o/Store_1.1.signed.apk?alt\u003dmedia\u0026token\u003da0374ae8-76fd-45ac-83ae-557ff93e7295"
+      },
+      "more": {
         "disabled": true,
+        "version": "not provided",
+        "package": "not provided"
+      }, "description": {
+          "disabled": true,
+          "text": "[LINK](https://google.com)"
+      }
+    },
+    {
+      "name": "APK Builder",
+      "dev": "Steelworks",
+      "icon": "https://image.winudf.com/v2/image1/Y29tLmdtYWlsLmhlYWdvby5hcGtidWlsZGVyX2ljb25fMTU1MDQxMTA0M18wODA/icon.png?w\u003d100\u0026fakeurl\u003d1",
+      "download": {
+        "disabled": false,
+        "link": "https://firebasestorage.googleapis.com/v0/b/dergoooogler.appspot.com/o/APK%20Builder.apk?alt\u003dmedia\u0026token\u003dcc83ce38-756e-4d3f-9e27-f77b7efd2cfe"
+      },
+      "more": {
+        "disabled": false,
+        "version": "1.1.0 (11)",
+        "package": "com.gmail.heagoo.apkbuilder"
+      }
+    },
+    {
+      "name": "Hybrid TTS",
+      "dev": "Der_Googler",
+      "icon": "https://play-lh.googleusercontent.com/hVb5mbZDDRum0rUtNYSMp_12ANIyK3D1TRJqN3QgcBbzrCF7-LVlOsWDwDgOGytZgpQ\u003ds200-rw",
+      "download": {
+        "disabled": false,
+        "link": "https://play.google.com/store/apps/details?id\u003dcom.dergoogler.hybridtts"
+      },
+      "more": {
+        "disabled": false,
         "version": "1.0",
         "package": "com.dergoogler.hybridtts"
-    }
-}, {
-    "name": "Bota64 App",
-    "dev": "Der_Googler",
-    "icon": "https://play-lh.googleusercontent.com/Y7icRph4Ah6-0J30-bvQviNUMLmaImc5JSSgtHB0azbDNNsqpF5-WX0HJV2mJEKjkfU=s200-rw",
-    "description": "# Hello world! 222222",
-    "download": {
-        "disabled": true,
-        "link": "https://play.google.com/store/apps/details?id=com.dergoogler.bota64"
+      }
     },
-    "more": {
+    {
+      "name": "Bota64 App",
+      "dev": "Der_Googler",
+      "icon": "https://play-lh.googleusercontent.com/Y7icRph4Ah6-0J30-bvQviNUMLmaImc5JSSgtHB0azbDNNsqpF5-WX0HJV2mJEKjkfU\u003ds200-rw",
+      "download": {
+        "disabled": false,
+        "link": "https://play.google.com/store/apps/details?id\u003dcom.dergoogler.bota64"
+      },
+      "more": {
         "disabled": false,
         "version": "1.0",
         "package": "com.dergoogler.bots64"
+      }
+    },
+    {
+      "name": "YouTube Downloader",
+      "dev": "Der_Googler",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/dergoooogler.appspot.com/o/h%C3%BCner-sind-schwul.png?alt\u003dmedia\u0026token\u003dbd97b186-5fbd-4d7a-b325-9efaf3d32c08",
+      "download": {
+        "disabled": false,
+        "link": "https://github.com/DerGoogler/general-releases/releases/download/1.0-YT-DL/YouTube.Downloader_1.0.apk"
+      },
+      "more": {
+        "disabled": false,
+        "version": "1.0",
+        "package": "com.dergoogler.ytdownloader"
+      }
+    },
+    {
+      "name": "Tellonym (Cloned APK)",
+      "dev": "Tellonym, Der_Googler",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/dergoooogler.appspot.com/o/ZzjyqN50_400x400.png?alt\u003dmedia\u0026token\u003db3c2d639-369d-43ec-b1e5-ff91470d481b",
+      "download": {
+        "disabled": false,
+        "link": "https://firebasestorage.googleapis.com/v0/b/dergoooogler.appspot.com/o/Tellonym_2.62.0.apk?alt\u003dmedia\u0026token\u003dd7e402ec-e945-4a74-b7ba-5149025d9eac"
+      },
+      "more": {
+        "disabled": false,
+        "version": "2.62.0 (408)",
+        "package": "de.tellonym.apq"
+      }
     }
-}]
+  ]
