@@ -1,0 +1,29 @@
+[{
+    "name": "Hybrid TTS",
+    "dev": "Der_Googler",
+    "icon": "https://play-lh.googleusercontent.com/hVb5mbZDDRum0rUtNYSMp_12ANIyK3D1TRJqN3QgcBbzrCF7-LVlOsWDwDgOGytZgpQ=s200-rw",
+    "description": "# Hello world!",
+    "download": {
+        "disabled": false,
+        "link": "https://play.google.com/store/apps/details?id=com.dergoogler.hybridtts"
+    },
+    "more": {
+        "disabled": true,
+        "version": "1.0",
+        "package": "com.dergoogler.hybridtts"
+    }
+}, {
+    "name": "Bota64 App",
+    "dev": "Der_Googler",
+    "icon": "https://play-lh.googleusercontent.com/Y7icRph4Ah6-0J30-bvQviNUMLmaImc5JSSgtHB0azbDNNsqpF5-WX0HJV2mJEKjkfU=s200-rw",
+    "description": "# Hello world! 222222",
+    "download": {
+        "disabled": true,
+        "link": "https://play.google.com/store/apps/details?id=com.dergoogler.bota64"
+    },
+    "more": {
+        "disabled": false,
+        "version": "1.0",
+        "package": "com.dergoogler.bots64"
+    }
+}]
